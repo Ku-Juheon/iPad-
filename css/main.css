@@ -1,0 +1,42 @@
+body {
+  font-size: 16px;
+  line-height: 1;
+  font-family: 'Roboto', 'Noto Sans KR', sans-serif;
+  word-break: keep-all;
+}
+
+/* Header */
+
+header {
+  background-color: #3a3a3a;
+}
+header .inner {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+header ul.menu {
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li {
+  display: flex;
+}
+header ul li a {
+  padding: 0 10px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  color: #f5f5f5;
+  opacity: 0.8;
+  text-decoration: none;
+}
+header ul li a:hover {
+  opacity: 1;
+}
+header ul li.apple-logo a {
+}
+header ul li.search-starter a {
+}
+header ul li.basket-starter a {
+}
