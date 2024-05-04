@@ -94,5 +94,6 @@ function hideSearching() {
   // 이후에도 순차적으로 나타나도록 다시 뒤집기
   searchDelayEls.reverse();
 
+  // 검색하고 다른 곳 클릭했을 시 검색창에 입력했던 내용 없어지게 하기
   SearchInputEl.value = '';
 }
